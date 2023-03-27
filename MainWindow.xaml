@@ -1,0 +1,27 @@
+﻿<Window x:Class="WeightCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeightCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="毫克" HorizontalAlignment="Left" Margin="123,97,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="123,127,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="清除" HorizontalAlignment="Left" Margin="123,54,0,0" VerticalAlignment="Top"/>
+        <Label Content="公噸" HorizontalAlignment="Left" Margin="123,187,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="123,218,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="公克" HorizontalAlignment="Left" Margin="323,97,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="323,127,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="盎司" HorizontalAlignment="Left" Margin="325,187,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="325,217,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="公斤" HorizontalAlignment="Left" Margin="522,97,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="522,127,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="磅" HorizontalAlignment="Left" Margin="524,187,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="524,217,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="說明文字" HorizontalAlignment="Left" Margin="217,285,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="217,315,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

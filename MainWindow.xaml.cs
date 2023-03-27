@@ -38,9 +38,9 @@ namespace WeightCalculator
             if (_kind != 3)
                 txtMT.Text = string.Format("{0:0.##########}", _value / 1000000);
             if (_kind != 4)
-                txtOZ.Text = string.Format("{0:0.##########}", _value / 0.035274);
+                txtOZ.Text = string.Format("{0:0.##########}", _value * 0.035274);
             if (_kind != 5)
-                txtLB.Text = string.Format("{0:0.##########}", _value / 0.002205);
+                txtLB.Text = string.Format("{0:0.##########}", _value * 0.002205);
         }
         private void txtMG_KeyUp(object sender, KeyEventArgs e)
         {
